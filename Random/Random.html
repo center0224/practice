@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<!-- クラス -->
+<style type="text/css">
+ .com_btn {width:100px;height:100px;font-size:30px;background-color:white;}	<!-- ボタン -->
+</style>
+
+<head>
+ <!-- 表題 -->
+ <title>R.I.　TEST　PAGE</title>
+ <link href="Random.css" rel="stylesheet">
+ <script src="Random.js"></script>
+</head>
+
+<body>
+ <!-- 見出し -->
+ <div class="Header-msg">
+  こんにちは！
+  <br>
+  R.Iのテストページです。<br>
+  <br>
+  <!-- 見出し -->
+
+ <!-- 開始ボタン -->
+ <a href="#" class="btn-square" id="btn_start" onclick="btn_startClick();">START</a>
+
+ <!-- リセットボタン -->
+ <a href="#" class="btn-square" id="btn_reset" onclick="btn_resetClick();">RESET</a>
+
+ <!-- ボタン 親要素① -->
+ <div class="button_parent_1" id="btn_parent_1">
+  STARTボタンを
+  <br>
+  押してください
+ </div>
+
+ <!-- ボタン 親要素② -->
+ <div class="button_parent_2" id="btn_parent_2">
+ </div>
+
+ <!-- ボタン１ -->
+ <input type="button" name="bt01" class="com_btn" id="btn1" value="1" onclick="btn1_Click();"
+ style="position:absolute;Top:330px;Left:150px;">
+
+ <!-- ボタン２ -->
+ <input type="button" name="bt02" class="com_btn" id="btn2" value="2" onclick="btn2_Click();"
+ style=position:absolute;Top:330px;Left:400px;">
+
+ <!-- ボタン３ -->
+ <input type="button" name="bt03" class="com_btn" id="btn3" value="3" onclick="btn3_Click();"
+ style=position:absolute;Top:450px;Left:275px;">
+
+ <!-- ボタン４ -->
+ <input type="button" name="bt04" class="com_btn" id="btn4" value="4" onclick="btn4_Click();"
+ style=position:absolute;Top:580px;Left:150px;">
+
+ <!-- ボタン５ -->
+ <input type="button" name="bt05" class="com_btn" id="btn5" value="5" onclick="btn5_Click();"
+ style=position:absolute;Top:580px;Left:400px;">
+
+</body>
+
+</html>
