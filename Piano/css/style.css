@@ -1,0 +1,77 @@
+/* 背景色指定 */
+/* 全体 */
+body{
+    background-color:yellowgreen;
+    }
+/* 下地 */
+.base{
+    width: 360pt;
+    height: 200pt;
+    background: #191919;
+    border-radius:10px;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    overflow: hidden;
+    padding: 5pt;
+    }
+
+/* 黒鍵 */
+.inner_b{
+    position: absolute;
+    left: 5px;
+    bottom: 125px;
+    width: calc(100% - 8pt);
+    height: calc(80% - 100pt);
+    /* background: green; */
+    border-radius:5px;
+    display: flex;
+    }   
+
+p_b{
+    display: block;
+    height: 100%;
+    width: 30pt;
+    background: #000;
+    z-index: 2;
+    position: absolute;
+    }
+
+p_b:nth-child(1){
+    right: 395px;
+    }
+p_b:nth-child(2){
+    right: 325px;
+    }
+p_b:nth-child(3){
+    right: 190px;
+    }
+p_b:nth-child(4){
+    right: 120px;
+    }
+p_b:nth-child(5){
+    right: 50px;
+    }   
+
+/* 白鍵 */
+.inner_w{
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    /* right: 5px; */
+    width: calc(100% - 8pt);
+    height: calc(80% - 10pt);
+    /* background: red; */
+    border-radius:5px;
+    display: flex;
+    }   
+
+p_w{
+    display: block;
+    height: 100%;
+    width: calc(100%/7);
+    background: #fff;
+    margin:2.5px;
+    border-radius:5px;
+    z-index: 1;
+    }
