@@ -19,16 +19,20 @@ function btn_startClick(){
  color = colorDecision();
  btn5.style.backgroundColor = color;
  
- var doc = document.getElementById("btn_parent_1");  
- var str = "１～５のボタンを"+"<br>"+"押してください。"
- doc.innerHTML= str; 
+//  var doc = document.getElementById("btn_parent_1");  
+//  var str = "１～５のボタンを"+"<br>"+"押してください。"
+//  doc.innerHTML= str; 
 }
 
 //ボタン１クリック
 function btn1_Click(){
- var result
- result = resultDecision();
- btn1.value = result;
+  if (btn1.backgroundColor = "white")
+  {}
+  else {
+    var result
+    result = resultDecision();
+    btn1.value = result;
+  }
 }
 
 //ボタン２クリック
