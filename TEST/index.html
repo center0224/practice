@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <title>sample</title>
+</head>
+
+<body>
+  <h1>見出し</h1>
+  <p>段落<br>改行</br></p>
+  <hr>水平線</hr>
+
+  <img src="./img/黒猫.jpg" width="100" height="50">
+  <br>
+
+  <!-- フォーム -->
+  <header>
+    <h1>フォーム</h1>
+      <form>
+        <!-- ラベル/テキストボックス -->
+        <label>名前</label>
+        <input type="text" placeholder="名前を入力してください">
+        <br>
+        <!-- セレクトボックス -->
+        <label>年代</label>
+        <select>
+            <option>10代以下</option>
+            <option>20代</option>
+            <option>30代</option>
+            <option>40代以上</option>
+        </select>
+        <br>
+        <!-- テキストエリア -->
+        <label>お問い合わせ内容</label>
+        <textarea></textarea>
+        <br>
+        <!-- ラジオボタン -->
+        <label>男性</label><input type="radio" name="gender">
+        <label>女性</label><input type="radio" name="gender">
+        <label>その他</label><input type="radio" name="gender">
+        <br>
+        <!-- チェックボックス -->
+        <label>利用規約に同意する</label>
+        <input type="checkbox">
+        <br><br>
+        <!-- ボタン -->
+        <input type="submit" value="送信">
+        <input type="reset" value="リセット">
+      </form>
+  </header>
+  
+  <script language="javascript" type="text/javascript">
+    const func1 = () => {
+      document.form1.button1.disabled
+        = !(document.form1.name1.value && document.form1.mail1.value);
+    }
+
+    func1();
+  </script>
+</body>
