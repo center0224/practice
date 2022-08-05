@@ -7,4 +7,4 @@
 [4.時計](https://center0224.github.io/practice/Timer/Timer.html)
 
 (html学習)<br>
-[1](https://center0224.github.io/practice/socialtech/index.html)<br>
+[1.テストページ](https://center0224.github.io/practice/socialtech/index.html)<br>
